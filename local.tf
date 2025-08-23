@@ -3,3 +3,6 @@ resource "local_file" "pet" {
   content  = "My pet name is timo "
 
 }
+provider "aws_instance" {
+  
+}
